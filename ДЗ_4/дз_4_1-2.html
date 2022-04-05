@@ -27,7 +27,7 @@
   <script>
     let str = document.querySelector('.text');
     console.log (str.textContent.replace(/'/g, '"'));//заменяет все одинарные кавычки на двойные
-    console.log (str.textContent.replace(/\B'|'\B/g, '"'));//заменяет кавычки только по границе слов
+    console.log (str.textContent.replace(/\B'|'\B/g, '"'));//заменяет одинарные кавычки только по границе слов
   </script>
 </body>
 </html>
